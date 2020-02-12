@@ -1,0 +1,25 @@
+// #header {
+//     .btn-1{
+//         border-radius: 40px;
+//         background: green;
+//         color: white;
+//     }
+// }
+
+#header{border-bottom: 1px solid rgb(240, 228, 228);
+    background: white;
+    .mainDrop {
+        &:hover {
+            .droppedMenu {
+                display: block;
+            }
+        }
+    }
+}
+
+#demos {
+    margin-top: 4.2em;
+    .demo-right{
+        clip-path: circle(73.6% at 84% 49%);
+    }
+}
