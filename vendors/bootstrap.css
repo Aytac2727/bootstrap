@@ -635,6 +635,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  border:1px solid red;
 }
 
 .col {
@@ -643,6 +644,7 @@ pre code {
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
+
 }
 
 .row-cols-1 > * {

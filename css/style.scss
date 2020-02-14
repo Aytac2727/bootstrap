@@ -1,13 +1,7 @@
-// #header {
-//     .btn-1{
-//         border-radius: 40px;
-//         background: green;
-//         color: white;
-//     }
-// }
-
-#header{border-bottom: 1px solid rgb(240, 228, 228);
+#header {
+    border-bottom: 1px solid rgb(240, 228, 228);
     background: white;
+
     .mainDrop {
         &:hover {
             .droppedMenu {
@@ -19,7 +13,214 @@
 
 #demos {
     margin-top: 4.2em;
-    .demo-right{
+
+    .demo-right {
         clip-path: circle(73.6% at 84% 49%);
+    }
+}
+
+// demos end
+
+#create {
+    background: rgb(247, 249, 252);
+    clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 95%, 66% 98%, 32% 98%, 0 95%, 0% 43%, 0 0);
+
+
+    padding-bottom: 5em;
+
+    .create-text {
+        h1 {
+            font-size: 3em;
+        }
+    }
+
+    .create-left {
+        img {
+            border-radius: 10px;
+        }
+    }
+
+    .radius-img {
+        width: 45%;
+        height: 45%;
+        top: 30px;
+        left: -50px;
+
+        img {
+            border: 4px solid white;
+            border-radius: 50%;
+        }
+    }
+
+    .create-right {
+        ul {
+            li {
+                padding-bottom: 2em;
+
+                a {
+                    text-decoration: none;
+                    color: #65d1b4;
+
+                    &:hover {
+                        color: #009b72;
+                    }
+                }
+            }
+        }
+    }
+
+    .girl-right {
+        img {
+            border-radius: 10px;
+        }
+
+        .girl-img {
+            width: 45%;
+            height: 45%;
+            top: 30px;
+            right: -40px;
+
+            img {
+                border: 4px solid white;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+// create end
+// workers 
+
+#workers {
+    margin: 5em 0;
+
+    .work {
+        border-radius: 10px;
+        position: relative;
+
+        &:hover {
+            top: -10px;
+            box-shadow: 4px 2px 2px 4px rgb(247, 238, 238);
+        }
+
+        .work-logo {
+            bottom: 15px;
+            right: 15px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .work-text {
+            a {
+                text-decoration: none;
+                color: #009b72;
+            }
+        }
+    }
+}
+
+// workers end
+// galore
+#galore {
+    background-color: #192d35;
+    margin-top: 5em;
+    padding: 3em 0;
+    clip-path: polygon(15% 0, 87% 0, 100% 14%, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0 15%);
+
+
+    .galo-text {
+        color: white;
+        text-align: center;
+        padding: 3em;
+
+        h1 {
+            font-size: 4em;
+        }
+    }
+
+    .galore-text {
+        background-color: #263941;
+        color: white;
+        padding: 2em;
+        margin: 25px 0;
+        border-radius: 5px;
+        position: relative;
+        transition: .7s;
+
+        &:hover {
+            bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #009b72;
+        }
+    }
+}
+
+// galore end
+// customers
+#customers {
+    padding: 3em 0;
+    background-color: #009b72;
+
+    .cust-text {
+        color: white;
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 22px;
+            padding: 20px 4em;
+        }
+    }
+
+    .cust {
+        margin: 10px;
+
+        .cust-item {
+            background-color: white;
+            border-radius: 5px;
+            padding: 10px;
+
+            .cust-img {
+                img {
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+// customers end
+// lunch 
+
+#lunch {
+    padding: 2em 0;
+    clip-path: circle(85.4% at 50% 13%);
+    margin: 5em 0;
+
+
+.information {
+    h1 {
+        font-size: 3em;
+    }
+    p{
+        font-size: 20px;
+        color: #555a64;
+        padding: 15px 0;
+    }
+}
+    a{margin: 30px 0;
+        background-color:#009b72;
+        color: white;
+        padding: 20px 40px;
+        border-radius: 35px;
+        &:hover {
+            background-color: #0a8564;
+            cursor: pointer;
+        }
     }
 }
